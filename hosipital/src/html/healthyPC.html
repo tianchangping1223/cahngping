@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="css/healthyPC.css">
+	
+	<div class="container" re-fresh>
+		<header class="header">
+			<b>健康评测</b>
+			<a class="back" ui-sref="index">&#xf0223;</a>
+		</header>
+		<ul class="nav" single-click>
+			<li class="bg">趣味</li>
+			<li>疾病</li>
+			<li>心理</li>
+		</ul>
+		<main class="main" id="main">
+			<div class="scroll">
+				<ol class="wrap" ng-repeat="user in data.healthyPC">
+					<li><img src="{{user.img}}" alt=""></li>
+					
+				</ol>
+			</div>
+		</main>
+	</div>

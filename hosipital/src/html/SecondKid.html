@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="css/SecondKid.css">
+	
+	<div class="container">
+		<header class="header">
+			<a class="back" ui-sref="SecondOne">&#xf0223;</a>
+			<b>儿科</b>
+		</header>
+		<main class="main" id="main" re-fresh>
+			<div class="scroll">
+			<div class="wraps" ng-repeat="user in data.SecondKid">
+				<dl class="list">
+					<dt><img src="{{user.img}}" alt=""></dt>
+					<dd>
+						<h2 class="h2">{{user.user}}<i>[主治医师]</i></h2>
+						<p class="save">{{user.save}}</p>
+						<p class="goodAt">{{user.good}}</p>
+					</dd>
+				</dl>
+			</div>
+		</main>
+	</div>
+	
+	

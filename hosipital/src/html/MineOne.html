@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="css/MineOne.css">
+
+	<div class="container" ng-controller="render">
+		<header class="header">
+			<b>我</b>
+			<a class="back">&#xf0223;</a>
+		</header>
+		<!-- 主体 -->
+		<main class="main" id="main" re-fresh>
+			<div class="scroll">
+				<dl class="top">
+					<dt><img src="images/05_03.png" alt=""></dt>
+					<dd>
+						<h1 class="h1">FFF</h1>
+						<p class="san">
+							健康号:123456789 <i class="span">&#xf0224;</i>
+						</p>
+						<button class="btn">QQ登陆账号</button>
+					</dd>
+				</dl>
+				<p class="stars">
+					<i class="star">&#xe685;</i>
+					<i class="blue">260</i>个健康点，<i class="blue">6</i>个未完成任务
+					<i class="span">&#xf0224;</i>
+				</p>
+				<!-- 点击列表 渲染-->
+				<ul class="lists">
+					<li ng-repeat="user in data.MineOne" id="{{user.ids}}">
+						<a ui-sref="{{user.ids}}">
+							<img src="{{user.img}}" alt=""><i>{{user.cont}}</i>
+							<i class="span">&#xf0224;</i>
+						</a>
+					</li>
+				</ul>
+				
+				<ol class="small">
+					<!-- 我的订单 -->
+					<li id="MineOrders">
+						<a ui-sref="MineOrders">
+							<img src="images/order.png" alt=""><i>我的订单</i>
+							<i class="span">&#xf0224;</i>
+						</a>
+					</li>
+					<li>
+						<img src="images/hot.png" alt=""><i>我的收藏</i>
+						<i class="span">&#xf0224;</i>
+					</li>
+				</ol>
+			</div>
+		</main>
+		<!-- 页脚 -->
+		<footer class="footer">
+			<a ui-sref="index" id="home"><small>&#xe6ca;</small>首页</a>
+			<a ui-sref="SecondOne" id="second"><small>&#xe72d;</small>问诊</a>
+			<a ui-sref="ThirdOne" id="shop"><small>&#xe77f;</small>健康商城</a>
+			<a ui-sref="forthOne" id="forthOne"><small>&#xe6ce;</small>健康圈</a>
+			<a ui-sref="MineOne" id="mine"><small class="bg">&#xe62e;</small>我</a>
+		</footer>
+	</div>

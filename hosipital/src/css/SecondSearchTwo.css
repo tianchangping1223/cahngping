@@ -1,0 +1,93 @@
+@import url("reset.css");
+
+html,body,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+i{
+	font-style:normal;
+}
+.container{
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	background: #f3f2f2;
+}
+.header{
+	height:1.2rem;
+	line-height:1.2rem;
+	background: #f7f9fa;
+	font-size: .28rem;
+	text-align: center;
+	color: #d1d1d1;
+	border-bottom: .01rem solid #999;
+	padding: 0rem .24rem;
+}
+.header b{
+	color: #5abff3;
+	font-size: .34rem;
+	float: right;
+}
+.header #txt{
+	width:82.3%;
+	border-radius: .08rem;
+	border: .01rem solid #ccc;
+	height: .7rem;
+	float: left;
+	margin-top:.26rem;
+	position: relative;
+	font-size: .28rem;
+	padding-left: .12rem;
+	outline: none;
+	color: #999;
+}
+.header #x{
+	position: absolute;
+	top:0;
+	right:1.59rem;
+	color: #e7e7e7;
+	font-size: .36rem;
+}
+.main{
+	-webkit-flex-grow:1;
+	overflow: hidden;
+	width: 100%;
+	background: #f3f2f2;
+}
+.hot{
+	height: 1.82rem;
+	background: #fff;
+	margin-top: .22rem;
+}
+.hot .h2{
+	font-size: .36rem;
+	padding:0rem .24rem;
+	color: #232323;
+	height: .58rem;
+	line-height: .58rem;
+	border-bottom: .01rem solid #ccc;
+}
+.hot .h2 img{
+	width: .4rem;
+	height: .4rem;
+	float: left;
+	margin: .08rem .15rem 0rem 0rem;
+}
+.nav{
+	margin-top: .28rem;
+	height: auto;
+	font-size: 0rem;
+	padding:0rem .24rem;
+}
+.nav a{
+	display: inline-block;
+	width: 1.78rem;
+	height: .68rem;
+	border: .03rem solid #6c6c6c;
+	border-radius: .3rem;
+	margin-right: .24rem;
+	text-align: center;
+	line-height: .68rem;
+	font-size: .28rem;
+	color: #6c6c6c;
+}

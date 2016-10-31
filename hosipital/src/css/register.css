@@ -1,0 +1,123 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+i {
+  font-style: normal; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 1.14rem;
+  line-height: 1.14rem;
+  position: relative;
+  font-size: .36rem;
+  text-align: center;
+  color: #7b7f80; }
+  .header .back {
+    color: #c8c8c8;
+    font-size: .36rem;
+    position: absolute;
+    left: .2rem;
+    top: 0; }
+
+.main {
+  width: 100%;
+  -webkit-flex-grow: 1;
+  overflow: hidden;
+  background: #f3f2f2; }
+
+.tit, .tit1 {
+  height: .8rem;
+  line-height: .8rem;
+  color: #6d6d6d;
+  font-size: .32rem;
+  text-align: center; }
+  .tit i, .tit1 i {
+    color: #62c2f3;
+    font-size: .32rem; }
+
+.tit1 {
+  text-align: left;
+  padding-left: .2rem;
+  height: .65rem;
+  line-height: .65rem; }
+
+.find {
+  height: 3.17rem;
+  background: #fff;
+  border-top: .01rem solid #ccc;
+  border-bottom: .01rem solid #ccc; }
+
+.wrapper {
+  height: 1.24rem;
+  /*display: -webkit-flex;*/
+  width: 100%;
+  border-top: .03rem solid #ccc; }
+  .wrapper li {
+    /*-webkit-flex-grow:1;*/
+    width: 20%;
+    float: left;
+    height: 1.24rem;
+    text-align: center;
+    border-right: .03rem solid #ccc; }
+    .wrapper li a {
+      display: block;
+      font-size: .3rem;
+      color: #4c4c4c; }
+      .wrapper li a img {
+        width:.38rem;
+        height:.7rem;
+        padding: .2rem 0rem .1rem 0rem; }
+
+.cont {
+  height: 2.26rem;
+  background: #fff;
+  margin-top: .18rem;
+  border-bottom: .01rem solid #cccccc; }
+
+.hospitals {
+  padding-left: .2rem;
+  height: .98rem;
+  padding-top: .3rem;
+  border-top: .01rem solid #cccccc; }
+  .hospitals dt {
+    width: 1.29rem;
+    height: .96rem;
+    float: left; }
+    .hospitals dt img {
+      float: left;
+      width: 100%;
+      height: 100%; }
+  .hospitals dd {
+    float: left;
+    width: 3.6rem;
+    padding-left: .15rem; }
+    .hospitals dd .h2 {
+      color: #484848;
+      font-size: .26rem;
+      padding: .12rem 0rem; }
+    .hospitals dd .col {
+      font-size: .2rem;
+      color: #666; }
+      .hospitals dd .col .blue {
+        font-size: .2rem;
+        color: #5abff3; }
+  .hospitals .third {
+    float: right;
+    width: 1.56rem;
+    height: .5rem;
+    font-size: .22rem;
+    color: #5abff3;
+    background: #fff;
+    border-radius: .1rem;
+    display: inline-block;
+    border: .02rem solid #5abff3;
+    margin-right: .21rem;
+    margin-top: .23rem; }
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,204 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+i {
+  font-style: normal; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #f3f2f2; }
+
+/*----------------header----------------*/
+.header {
+  height: 1.12rem;
+  line-height: 1.12rem;
+  background: #f7f9fa;
+  position: relative;
+  font-size: .38rem;
+  text-align: center;
+  color: #212121; }
+  .header a {
+    font-size: .56rem;
+    position: absolute;
+    top: 0;
+    color: #666;
+    right: .24rem; }
+
+/*-----------main-----------*/
+.main {
+  width: 100%;
+  -webkit-flex-grow: 1;
+  overflow: hidden;
+  background: #f3f2f2; }
+  .main .scroll {
+    height: auto;
+    width: 100%; }
+    .main .scroll input[type="text"] {
+      height: .54rem;
+      background: #fff;
+      font-size: .24rem;
+      color: #999;
+      text-align: center;
+      border: none;
+      outline: none;
+      width: 93.6%;
+      margin: .2rem 3.2%;
+      float:none;
+    }
+    .main .scroll .cont, .main .scroll .PicBox, .main .scroll .theWhole {
+      height: 3.19rem;
+      background: #fff;
+      margin-bottom: .2rem; }
+    .main .scroll .theWhole {
+      height: 3.88rem;
+      border-bottom: .01rem solid #afaeae; }
+      .main .scroll .theWhole .wxList {
+        width: 100%;
+        height: 2.95rem;
+        margin-top: .2rem; }
+        .main .scroll .theWhole .wxList dl {
+          /*width:19.06%;*/
+          width: 25%;
+          height: 100%;
+          float: left;
+          padding: 0rem .11rem 0rem .24rem; }
+          .main .scroll .theWhole .wxList dl dt {
+            width: 1.46rem;
+            height: 1.46rem; }
+            .main .scroll .theWhole .wxList dl dt img {
+              width: 100%;
+              height: 100%; }
+          .main .scroll .theWhole .wxList dl dd {
+            width: 1.46rem;
+            text-align: center; }
+            .main .scroll .theWhole .wxList dl dd .tit {
+              font-size: .28rem;
+              color: #3b3b3b;
+              padding-top: .15rem; }
+            .main .scroll .theWhole .wxList dl dd p {
+              color: #c1c1c1;
+              padding-top: .16rem;
+              font-size: .28rem; }
+    .main .scroll .PicBox {
+      height: 2.88rem; }
+      .main .scroll .PicBox .left, .main .scroll .PicBox .right {
+        width: 44.8%;
+        height: 100%;
+        float: left;
+        border-right: .03rem solid #afaeae; }
+      .main .scroll .PicBox .right {
+        width: 55.2%; }
+        .main .scroll .PicBox .right .top {
+          height: 50%;
+          padding-right: .24rem;
+          padding-left: .19rem;
+          width: 100%;
+          padding-top: .13rem;
+          border-bottom: .03rem solid #afaeae; }
+          .main .scroll .PicBox .right .top dt {
+            width: 1.18rem;
+            height: 1.22rem;
+            float: right; }
+            .main .scroll .PicBox .right .top dt img {
+              width: 100%;
+              height: 100%;
+              float: left; }
+          .main .scroll .PicBox .right .top dd {
+            float: left;
+            width: 2.35rem;
+            height: 100%; }
+            .main .scroll .PicBox .right .top dd .h4, .main .scroll .PicBox .right .top dd .h5 {
+              color: #71d5a5;
+              padding: .18rem 0rem .13rem 0rem;
+              font-size: .36rem; }
+            .main .scroll .PicBox .right .top dd .h5 {
+              color: #5abff3; }
+            .main .scroll .PicBox .right .top dd p {
+              color: #c1c1c1;
+              font-size: .22rem; }
+      .main .scroll .PicBox .left {
+        background: url("../images/women_03.png") no-repeat;
+        background-size: 1.87rem 2.07rem;
+        background-position: 1.4rem .81rem;
+        padding-left: .24rem; }
+        .main .scroll .PicBox .left .h3 {
+          color: #ff9ac5;
+          font-size: .36rem;
+          padding-bottom: .12rem;
+          padding-top: .33rem; }
+        .main .scroll .PicBox .left .tiche {
+          color: #ffdcea;
+          font-size: .22rem; }
+
+.h2 {
+  height: .81rem;
+  font-size: .24rem;
+  line-height: .81rem;
+  border-bottom: .03rem solid #dbe0e3;
+  color: #c5c4c4;
+  padding-left: .24rem; }
+  .h2 b {
+    color: #5abff3;
+    font-size: .5rem;
+    float: left;
+    padding-right: .23rem; }
+
+.list {
+  height: 2.42rem;
+  width: 100%; }
+  .list li {
+    height: .79rem;
+    line-height: .79rem;
+    width: 100%;
+    font-size: 0;
+    border-bottom: .02rem solid #dbe0e3; }
+    .list li a {
+      font-size: .26rem;
+      color: #505050;
+      text-align: center;
+      display: inline-block;
+      width: 25%;
+      border-right: .02rem solid #dbe0e3; }
+    .list li .spe {
+      color: #5abff3; }
+
+.h6 {
+  font-size: .32rem;
+  color: #585858;
+  height: .62rem;
+  line-height: .62rem;
+  border-bottom: .02rem solid #afaeae;
+  padding: 0rem .24rem; }
+  .h6 span {
+    float: right;
+    color: #666767;
+    font-size: .28rem; }
+    .h6 span i {
+      color: #d3d3d3; }
+
+/*----------------footer----------------*/
+.footer {
+  width: 100%;
+  height: 1.03rem;
+  position: relative;
+  z-index: 999;
+  border-top: .03rem solid #ccc; }
+  .footer a {
+    font-size: .22rem;
+    color: #757575;
+    width: 20%;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: .1rem 0rem; }
+    .footer a small {
+      display: block;
+      font-size: .42rem; }
+    .footer a .bg {
+      color: #5abff3; }
+
+/*# sourceMappingURL=SecondOne.css.map */

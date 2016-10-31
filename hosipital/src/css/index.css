@@ -1,0 +1,395 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+i {
+  font-style: normal; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/*----------------header----------------*/
+.header {
+  height: 1.76rem;
+  background: #5abff3;
+  position: relative;
+  text-align: center;
+  color: #d1d1d1; }
+  .header a {
+    font-size: .50rem;
+    position: absolute;
+    top:25%;
+    color: #fff; }
+  .header a:nth-of-type(1) {
+    left: .24rem; }
+  .header a:nth-of-type(2) {
+    right: .24rem; }
+  .header input {
+    width: 65.2%;
+    height: .55rem;
+    background: #fff;
+    font-size: .24rem;
+    text-align: center;
+    border-radius: .15rem;
+    color: #d1d1d1;
+    position:absolute;
+    left:17%;
+    top:20%;
+    border: none; }
+  .header i {
+    position: absolute;
+    font-size: .36rem;
+    color: #d1d1d1;
+    left: 23%;
+    top:30%; }
+
+.cont {
+  font-size: .22rem;
+  color: #8e8e8e;
+  height: .7rem;
+  line-height: .7rem;
+  position: relative;
+  padding-left: .95rem; }
+  .cont button {
+    padding: .01rem .1rem .02rem .1rem;
+    color: #76f3fc;
+    font-size: .2rem;
+    border: .03rem solid #76f3fc;
+    border-radius: .12rem;
+    display: inline-block;
+    position: absolute;
+    left: .24rem;
+    top: .19rem;
+    background: #fff; }
+
+/*----------------main----------------*/
+.main {
+  width: 100%;
+  -webkit-flex-grow: 1;
+  overflow: hidden;
+  background: #f3f2f2; 
+  position: relative;
+}
+/* .main #sec{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+} */
+  .main .scroll {
+    height: auto;
+    width: 100%; }
+    .main .scroll .wrap, .main .scroll .wrap1, .main .scroll .HealthyShop, .main .scroll .cpHealthy, .main .scroll .mess {
+      height: 4.4rem;
+      margin-top: .2rem;
+      background: #fff; }
+    .main .scroll .wrap1 {
+      height: 3.17rem; }
+    .main .scroll .HealthyShop {
+      height: 5.39rem; }
+    .main .scroll .cpHealthy {
+      height: 3.19rem; }
+    .main .scroll .mess {
+      height: 4.08rem; }
+
+.h1 {
+  height: .86rem;
+  padding: 0rem .24rem;
+  border-bottom: .03rem solid #cccccc;
+  font-size: .32rem;
+  line-height: .86rem;
+  color: #666;
+  font-weight: bold; }
+  .h1 i {
+    float: right;
+    color: #d2d2d2;
+    font-size: .32rem; }
+
+.between {
+  width: 100%;
+  height: 2.29rem;
+  border-bottom: .03rem solid #cccccc; }
+  .between .left, .between .left2 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    border-right: .03rem solid #ccc;
+    padding-left: .24rem;
+    background: url("../images/doctor_03.png") no-repeat;
+    background-size: 2.3rem 2.01rem;
+    background-position: 1.28rem .27rem; }
+  .between .left2 {
+    background: url("../images/litao_03.png") no-repeat;
+    background-size: 2.48rem 1.66rem;
+    background-position: 1.22rem .6rem; }
+  .between .right {
+    width: 50%;
+    height: 100%;
+    float: right; }
+
+.dl, .dl1 {
+  height: 50%;
+  border-bottom: .03rem solid #cccccc; }
+  .dl dt, .dl1 dt {
+    width: .58rem;
+    height: .58rem;
+    float: right;
+    margin: .13rem .12rem 0rem 0rem; }
+    .dl dt img, .dl1 dt img {
+      height: 100%;
+      width: 100%;
+      float: right;
+      margin: .13rem .12rem 0rem 0rem; }
+  .dl dd, .dl1 dd {
+    float: left;
+    padding-left: .3rem;
+    padding-top: .22rem; }
+    .dl dd .h3, .dl1 dd .h3 {
+      font-size: .32rem;
+      color: #898989; }
+    .dl dd p, .dl1 dd p {
+      font-size: .24rem;
+      color: #999;
+      padding-top: .1rem; }
+
+.dl1 {
+  border-bottom: none; }
+
+.h2 {
+  font-size: .3rem;
+  margin: .26rem 0rem .12rem 0rem; }
+  .h2 .span {
+    background: #ff5722;
+    color: #fff;
+    padding: .05rem .08rem;
+    font-size: .22rem;
+    margin-left: .2rem;
+    font-weight: normal; }
+
+.line {
+  color: #999;
+  font-size: .22rem; }
+
+.left1 {
+  width: 50%;
+  padding-left: .24rem;
+  float: left;
+  height: 1.23rem;
+  border-right: .03rem solid #ccc; }
+
+.right1 {
+  width: 50%;
+  height: 1.23rem;
+  float: right; }
+
+.gift {
+  height: 100%; }
+  .gift dt {
+    width: .77rem;
+    height: .74rem;
+    float: right;
+    margin: .16rem .12rem 0rem 0rem; }
+    .gift dt img {
+      height: 100%;
+      width: 100%;
+      float: right;
+      margin: .13rem .12rem 0rem 0rem; }
+  .gift dd {
+    float: left;
+    padding-top: .22rem; }
+    .gift dd .h3 {
+      font-size: .32rem;
+      color: #898989; }
+      .gift dd .h3 .span {
+        background: #ff5722;
+        color: #fff;
+        padding: .05rem .08rem;
+        font-size: .22rem;
+        margin-left: .2rem;
+        font-weight: normal; }
+    .gift dd p {
+      font-size: .24rem;
+      color: #999;
+      padding-top: .1rem; }
+
+.face {
+  float: left;
+  width: 33.6%;
+  padding-left: .24rem;
+  height: 3.72rem;
+  border-right: .03rem solid #ccc;
+  border-bottom: .03rem solid #ccc; }
+
+.product {
+  float: left;
+  width: 66.4%;
+  height: 3.72rem; }
+
+.price {
+  font-size: .28rem;
+  color: #82d9af;
+  padding: .12rem 0rem .14rem 0rem; }
+  .price .hand {
+    color: #37b2fb; }
+
+.time {
+  color: #000;
+  font-size: .28rem; }
+  .time a {
+    background: #000;
+    color: #fff;
+    font-size: .28rem;
+    padding: .1rem .07rem; }
+
+.nooo {
+  color: #666;
+  font-size: .2rem;
+  padding: .2rem 0rem .23rem .15rem; }
+
+.pic {
+  width: 1.82rem;
+  height: 1.77rem;
+  margin-left: .23rem; }
+
+.ceek {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border-right: .03rem solid #ccc;
+  border-bottom: .03rem solid #ccc;
+  /*dt{
+  	float:right;
+  	width:1.03rem;
+  	height:1.25rem;
+  	margin-right:.24rem;
+  	img{
+  		float:right;
+  	}
+  }*/ }
+  .ceek dd {
+    float: left;
+    width: 1.45rem;
+    height: 100%;
+    padding-left: .13rem; }
+    .ceek dd .h4 {
+      color: #828282;
+      font-size: .3rem;
+      padding: .25rem 0rem .08rem 0rem; }
+    .ceek dd p {
+      color: #71d5a5;
+      font-size: .24rem; }
+    .ceek dd .btn {
+      background: #71d5a5;
+      color: #fff;
+      border: none;
+      border-radius: .07rem;
+      width: .95rem;
+      height: .28rem;
+      float: left;
+      margin-top: .15rem;
+      font-size: .21rem; }
+
+.ceek:nth-of-type(1) {
+  background: url(../images/brush_03.png) no-repeat;
+  background-size: .8rem 1.34rem;
+  background-position: 1.5rem .45rem; }
+
+.ceek:nth-of-type(2) {
+  background: url(../images/bot_03.png) no-repeat;
+  background-size: 1.03rem 1.25rem;
+  background-position: 1.28rem .45rem; }
+
+.ceek:nth-of-type(3) {
+  background: url(../images/robot_03.png) no-repeat;
+  background-size: 1.36rem 1.09rem;
+  background-position: 1.05rem .68rem; }
+
+.ceek:nth-of-type(4) {
+  background: url(../images/disc_03.png) no-repeat;
+  background-size: 1.16rem .78rem;
+  background-position: 1.22rem .91rem; }
+
+.bottom {
+  font-size: .22rem;
+  color: #b4b4b4;
+  line-height: .79rem;
+  padding-left: .24rem; }
+  .bottom .bnt {
+    color: #2baffb;
+    border: .01rem solid #2baffb;
+    border-radius: .08rem;
+    background: #fff;
+    font-size: .2rem; }
+
+.swiper-wrapper {
+  width: auto;
+  height: 2.33rem;
+  padding-top: .23rem; }
+  .swiper-wrapper li {
+    width: 3.74rem;
+    border-right: .03rem solid #ccc; }
+    .swiper-wrapper li img {
+      width: 2.84rem;
+      height: 1.78rem; }
+  .swiper-wrapper li:nth-of-type(1) {
+    float: left;
+    padding-left: .67rem; }
+  .swiper-wrapper li:nth-of-type(2) {
+    float: left;
+    padding-left: .23rem; }
+
+.fly {
+  height: 1.62rem;
+  border-bottom: .03rem solid #ccc;
+  padding: .19rem .24rem; }
+  .fly dt {
+    float: left;
+    width: 1.59rem;
+    height: 1.20rem; }
+    .fly dt img {
+      width: 100%;
+      height: 100%; }
+  .fly dd {
+    width: 5.18rem;
+    height: 1.27rem;
+    float: right;
+    padding-right: .24rem; }
+    .fly dd .h6 {
+      color: #272727;
+      font-size: .28rem; }
+    .fly dd .sw {
+      color: #999;
+      font-size: .24rem;
+      padding: .2rem 0rem;
+       }
+    .fly dd .fl {
+      float: right;
+      color: #ccc;
+      font-size: .2rem; }
+
+/*----------------footer----------------*/
+.footer {
+  width: 100%;
+  height: 1.03rem;
+  position: relative;
+  z-index: 999;
+  border-top: .03rem solid #ccc; }
+  .footer a {
+    font-size: .22rem;
+    color: #757575;
+    width: 20%;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: .1rem 0rem; }
+    .footer a small {
+      display: block;
+      font-size: .42rem; }
+    .footer a .bg {
+      color: #5abff3; }
+
+/*# sourceMappingURL=index.css.map */

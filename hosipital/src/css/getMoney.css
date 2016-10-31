@@ -1,0 +1,142 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+i {
+  font-style: normal; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #f3f2f2; }
+
+/*----------------header----------------*/
+.header {
+  height: 1.06rem;
+  line-height: 1.06rem;
+  position: relative;
+  font-size: .38rem;
+  text-align: center;
+  color: #000; }
+  .header a {
+    font-size: .3rem;
+    color: #686868;
+    position: absolute;
+    top: 0; }
+  .header .back {
+    left: .24rem;
+    color: #666666;
+    font-size: .42rem; }
+  .header a:nth-of-type(2) {
+    right: 1.37rem; }
+  .header a:nth-of-type(3) {
+    right: .29rem; }
+
+/*----------main----------*/
+.main {
+  /*padding:0rem .2rem;*/
+  -webkit-flex-grow: 1;
+  overflow: hidden; }
+
+.borderR {
+  margin: 0rem .2rem;
+  height: 2.52rem;
+  border: .05rem solid #e8e2e2;
+  border-radius: 1.2rem;
+  margin-top: .24rem;
+  text-align: center; }
+  .borderR .h1 {
+    font-size: .84rem;
+    color: #333;
+    padding: .32rem 0rem .1rem 0rem; }
+    .borderR .h1 .span {
+      font-size: .56rem; }
+  .borderR .zero {
+    color: #b6b6b6;
+    font-size: .34rem; }
+
+.nav {
+  margin: .6rem .2rem .55rem .2rem;
+  width: 100%;
+  height: .58rem;
+  line-height: .58rem; }
+  .nav li {
+    color: #868686;
+    font-size: .26rem;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    border-right: .02rem solid #bbbcbc; }
+    .nav li i {
+      font-size: .28rem; }
+  .nav .noBorder {
+    border-right: none; }
+
+.count {
+  height: 2.31rem;
+  background: #fff;
+  margin: 0rem .24rem;
+  border-radius: .5rem; }
+  .count .h2 {
+    height: .65rem;
+    line-height: .65rem;
+    color: #737373;
+    font-size: .36rem;
+    border-bottom: .01rem solid #cccccc;
+    padding: 0rem .36rem 0rem .5rem; }
+
+.right {
+  float: right;
+  font-size: .3rem;
+  color: #999;
+  font-weight: normal; }
+  .right .dot {
+    font-size: .28rem;
+    color: #5abff3; }
+
+.fifth {
+  height: 1.35rem;
+  padding-top: .23rem;
+  display: -webkit-flex; }
+  .fifth li {
+    -webkit-flex-grow: 1;
+    text-align: center; }
+    .fifth li a {
+      display: block;
+      width: .72rem;
+      margin-left: .35rem;
+      height: .72rem;
+      line-height: .72rem;
+      background: #5abff3;
+      color: #fff;
+      border-radius: 50%;
+      font-size: .36rem;
+      font-weight: bold; }
+    .fifth li small {
+      display: block;
+      color: #7b7a7a;
+      font-size: .2rem;
+      padding-top: .1rem; }
+
+.form {
+  height: 1.06rem;
+  padding: .13rem .24rem;
+  margin-top: .66rem;
+  background: #fff; }
+  .form button {
+    width: 41.4%;
+    height: .81rem;
+    border: none;
+    border-radius: .2rem;
+    font-size: .34rem;
+    color: #fff; }
+  .form .btn {
+    float: left;
+    background: #71d5a5; }
+  .form .btn1 {
+    float: right;
+    background: #5abff3; }
+
+/*# sourceMappingURL=getMoney.css.map */
